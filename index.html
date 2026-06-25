@@ -443,7 +443,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
   </div>
   <div class="plan-info-bar">
     <div class="plan-pill"><div class="pl-label">Início do Plano</div><div class="pl-val">Março 2025</div></div>
-    <div class="plan-pill"><div class="pl-label">Total diário</div><div class="pl-val">~3442 kcal</div></div>
+    <div class="plan-pill"><div class="pl-label">Total diário</div><div class="pl-val">~3158 kcal</div></div>
     <div class="plan-pill"><div class="pl-label">Treinos/semana</div><div class="pl-val">5 Full Body</div></div>
     <div class="plan-pill"><div class="pl-label">Horário musculação</div><div class="pl-val">18h</div></div>
   </div>
@@ -473,7 +473,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
   </div>
   <div class="section-header"><h2>O que você <span>encontra aqui</span></h2><div class="section-line"></div></div>
   <div class="info-grid">
-    <div class="info-box"><div class="icon">🥗</div><h4>Dieta</h4><p>6 refeições · ~3442 kcal/dia · substituições completas + biblioteca de conscientização.</p></div>
+    <div class="info-box"><div class="icon">🥗</div><h4>Dieta</h4><p>5 refeições · ~3158 kcal/dia · substituições completas + biblioteca de conscientização.</p></div>
     <div class="info-box"><div class="icon">🏋️</div><h4>Treino</h4><p>5 Full Body semanais · Método BCA · campo de carga, histórico e timer de descanso.</p></div>
     <div class="info-box"><div class="icon">🏃</div><h4>Cardio + Corrida</div><p>Planilha de corrida Hyrox 7 semanas + protocolo de fortalecimento de joelho.</p></div>
     <div class="info-box"><div class="icon">📈</div><h4>Evolução</h4><p>Histórico de peso com gráfico e registro de fotos de acompanhamento.</p></div>
@@ -483,7 +483,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
 </section><section id="dieta" class="section">
   <div class="section-header"><h2>Planejamento <span>Alimentar</span></h2><div class="section-line"></div></div>
   <div class="sub-search-wrap"><h4>🔍 Busca rápida de substitutos</h4><input class="sub-search-input" type="text" id="subSearch" placeholder="Digite o alimento..." oninput="searchSubs()"><div id="sub-results"></div></div>
-  <div class="meal-total"><div class="total-pill"><span class="label">Total diário</span><span class="value">~3442</span><span style="font-size:10px;color:var(--white-dim);">kcal</span></div></div>
+  <div class="meal-total"><div class="total-pill"><span class="label">Total diário</span><span class="value">~3158</span><span style="font-size:10px;color:var(--white-dim);">kcal</span></div></div>
 
   <div class="meal-card">
     <div class="meal-header"><div class="meal-header-left"><div class="meal-num">1</div><div><div class="meal-name">Café da Manhã</div><span class="meal-time">Horário em aberto · pós-treino de luta</span></div></div><div class="meal-kcal">~605 <span>kcal</span></div></div>
@@ -510,41 +510,31 @@ textarea.q-input{resize:vertical;min-height:80px;}
   </div>
 
   <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">3</div><div><div class="meal-name">Lanche da Tarde</div><span class="meal-time">Horário em aberto · pré-treino</span></div></div><div class="meal-kcal">659 <span>kcal</span></div></div>
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">3</div><div><div class="meal-name">Pré-Treino</div><span class="meal-time">Horário em aberto · antes do treino</span></div></div><div class="meal-kcal">~270 <span>kcal</span></div></div>
     <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições</th></tr></thead><tbody>
-      <tr><td class="food-name">Claras de ovo</td><td class="food-qty">7 unidades</td><td class="food-kcal">119</td><td class="food-sub">Atum <strong>70g</strong> · Frango desfiado <strong>70g</strong> · Whey <strong>30g</strong> · Patinho <strong>80g</strong> · Tilápia <strong>80g</strong></td></tr>
-      <tr><td class="food-name">Flocão de milho</td><td class="food-qty">100g</td><td class="food-kcal">360</td><td class="food-sub">2 fatias pão · Aveia <strong>30g</strong> · Cuscuz <strong>80g</strong> · Tapioca <strong>80g</strong> · Arroz <strong>100g</strong> · Batata <strong>180g</strong></td></tr>
-      <tr><td class="food-name">Banana</td><td class="food-qty">200g</td><td class="food-kcal">180</td><td class="food-sub">Maçã · Mamão · Melão · Abacaxi · Manga (qualquer fruta ~100g)</td></tr>
-    </tbody></table></div><p class="swipe-hint">← deslize →</p>
-    <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-3" onchange="saveObs(this)"></textarea></div>
-  </div>
-
-  <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">4</div><div><div class="meal-name">Pós-treino</div><span class="meal-time">Imediatamente após o treino</span></div></div><div class="meal-kcal">180 <span>kcal</span></div></div>
-    <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições</th></tr></thead><tbody>
-      <tr><td class="food-name">Banana prata</td><td class="food-qty">2 unidades (~200g)</td><td class="food-kcal">180</td><td class="food-sub">Mamão <strong>200g</strong> · Melão <strong>250g</strong> · Abacaxi <strong>200g</strong> · Mix de frutas <strong>200g</strong></td></tr>
+      <tr><td class="food-name">Banana prata</td><td class="food-qty">3 unidades (~300g)</td><td class="food-kcal">270</td><td class="food-sub">Mamão <strong>300g</strong> · Melão <strong>380g</strong> · Abacaxi <strong>300g</strong> · Mix de frutas <strong>300g</strong></td></tr>
     </tbody></table></div><p class="swipe-hint">← deslize →</p>
     <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-4" onchange="saveObs(this)"></textarea></div>
   </div>
 
   <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">5</div><div><div class="meal-name">Lanche Noturno</div><span class="meal-time">Horário em aberto</span></div></div><div class="meal-kcal">365 <span>kcal</span></div></div>
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">4</div><div><div class="meal-name">Lanche Noturno</div><span class="meal-time">Horário em aberto · após o treino</span></div></div><div class="meal-kcal">~560 <span>kcal</span></div></div>
     <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições</th></tr></thead><tbody>
-      <tr><td class="food-name">Whey protein</td><td class="food-qty">40g</td><td class="food-kcal">160</td><td class="food-sub">Frango <strong>120g</strong> · Atum <strong>120g</strong> · Patinho <strong>120g</strong> · Cottage <strong>200g</strong></td></tr>
-      <tr><td class="food-name">Frutas variadas</td><td class="food-qty">300g</td><td class="food-kcal">135</td><td class="food-sub">Banana · Mamão · Maçã · Melão · Abacaxi · Manga · Uva · Pêra</td></tr>
-      <tr><td class="food-name">Iogurte zero</td><td class="food-qty">200ml</td><td class="food-kcal">70</td><td class="food-sub">Leite desnatado <strong>200ml</strong> · Kefir <strong>200ml</strong></td></tr>
+      <tr><td class="food-name">Whey protein</td><td class="food-qty">50g</td><td class="food-kcal">200</td><td class="food-sub">Frango <strong>150g</strong> · Atum <strong>150g</strong> · Patinho <strong>150g</strong> · Cottage <strong>250g</strong></td></tr>
+      <tr><td class="food-name">Banana prata</td><td class="food-qty">4 unidades (~360g)</td><td class="food-kcal">360</td><td class="food-sub">Mamão <strong>360g</strong> · Melão <strong>450g</strong> · Abacaxi <strong>360g</strong> · Mix de frutas <strong>360g</strong></td></tr>
     </tbody></table></div><p class="swipe-hint">← deslize →</p>
     <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-5" onchange="saveObs(this)"></textarea></div>
   </div>
 
   <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">6</div><div><div class="meal-name">Jantar</div><span class="meal-time">Horário em aberto</span></div></div><div class="meal-kcal">~540 <span>kcal</span></div></div>
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">5</div><div><div class="meal-name">Jantar</div><span class="meal-time">Horário em aberto</span></div></div><div class="meal-kcal">~896 <span>kcal</span></div></div>
     <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições</th></tr></thead><tbody>
       <tr><td class="food-name">Arroz branco</td><td class="food-qty">300g</td><td class="food-kcal">390</td><td class="food-sub">Batata inglesa <strong>250g</strong> · Macarrão <strong>150g</strong> · Aipim <strong>150g</strong> · Inhame <strong>180g</strong> · Cuscuz <strong>150g</strong> · Quinoa <strong>120g</strong></td></tr>
       <tr><td class="food-name">Peito de frango</td><td class="food-qty">150g</td><td class="food-kcal">165</td><td class="food-sub">Patinho <strong>150g</strong> · Tilápia <strong>160g</strong> · Atum <strong>150g</strong> · Sardinha <strong>150g</strong> · Ovos <strong>3 un</strong> · Claras <strong>6 un</strong></td></tr>
       <tr><td class="food-name">Verduras e vegetais</td><td class="food-qty">150g</td><td class="food-kcal">40</td><td class="food-sub">Couve · Brócolis · Cenoura · Abobrinha · Espinafre · Chuchu · Abóbora</td></tr>
       <tr><td class="food-name">Feijão</td><td class="food-qty">100g</td><td class="food-kcal">76</td><td class="food-sub">Lentilha <strong>100g</strong> · Grão-de-bico <strong>100g</strong> · Ervilha <strong>100g</strong> · Feijão fradinho <strong>100g</strong></td></tr>
       <tr><td class="food-name">Frutas variadas</td><td class="food-qty">300g</td><td class="food-kcal">135</td><td class="food-sub">Maçã · Mamão · Melão · Banana · Manga</td></tr>
+      <tr><td class="food-name">Azeite de oliva extra-virgem</td><td class="food-qty">1 colher de sopa (~10ml)</td><td class="food-kcal">90</td><td class="food-sub">Óleo de coco <strong>1 colher</strong> · Manteiga ghee <strong>1 colher</strong> · Abacate <strong>30g</strong></td></tr>
     </tbody></table></div><p class="swipe-hint">← deslize →</p>
     <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-6" onchange="saveObs(this)"></textarea></div>
   </div>
@@ -1014,13 +1004,16 @@ textarea.q-input{resize:vertical;min-height:80px;}
   <div style="background:linear-gradient(135deg,#1a1500,var(--dark2));border:1px solid var(--border);border-radius:4px;padding:22px;margin-bottom:18px;text-align:center;">
     <div style="display:inline-block;background:var(--gold-dim);border:1px solid var(--border);color:var(--gold);font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px;">João Cláudio Moreno</div>
     <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);margin-bottom:8px;">Relatório Personalizado de Consultoria</div>
-    <p style="font-size:12px;color:var(--white-dim);line-height:2;">O volume de treino de musculação foi aumentado de <strong style="color:var(--white);">5 para 6 sessões semanais</strong> — aproveitando a boa resposta do organismo e a evolução consistente. A divisão foi reestruturada em <strong style="color:var(--white);">Push/Pull alternado</strong>: T1, T3 e T5 focam em empurrar (peito, ombro, tríceps) e T2, T4 e T6 em puxar (costas, bíceps). Em todos os 6 treinos há <strong style="color:var(--white);">2 a 3 exercícios de membros inferiores</strong> distribuídos. O volume de bíceps e tríceps foi reduzido a <strong style="color:var(--white);">1 exercício isolado por treino</strong> para equilibrar o gasto energético com o Hyrox.</p><p>Todos os treinos seguem o <strong>Método BCA</strong>: Bloco Base (força bruta, 4–6 reps), Bloco Complementar (volume, 8–10 reps) e Bloco Auxiliar (pump, 12–20 reps). O modelo Full Body foi mantido para não sobrecarregar nenhum grupamento entre as sessões de kickboxing.</p></div>
-
-  <div class="relatorio-section"><h3>🚴 Atividade Aeróbica</h3><p>Manter as lutas diariamente. Nos dias sem luta, realizar <strong>50 minutos de atividade aeróbica em Zona 2 ou 3</strong>. Manter também <strong>3 a 4 aulas de Hyrox por semana</strong>. Nos dias de musculação sem Hyrox, incluir <strong>20 minutos de cardio pós-treino</strong> em Zona 2 ou 3.</p><div class="links-row"><a href="https://www.instagram.com/reel/DOY2YvMEbxP/" target="_blank" class="ig-link">▶ Benefícios do cardio</a></div></div>
-
+    <p style="font-size:12px;color:var(--white-dim);line-height:1.9;max-width:600px;margin:0 auto;">Além das explicações neste relatório, incluí links para vídeos educativos do meu Instagram para reforçar a conscientização e facilitar sua adesão ao processo.</p>
+  </div>
+  <div class="relatorio-section"><h3>🎯 Objetivo</h3><p>Implementar uma rotina com bons hábitos alimentares, treinamento estruturado e atividade aeróbica estratégica, com foco em <strong>performance esportiva</strong> (kickboxing + Hyrox) e <strong>composição corporal</strong> — preservando massa muscular, otimizando gasto energético e melhorando a recuperação entre treinos.</p><p><strong>Não é sobre acelerar — é sobre fazer o básico bem feito com consistência.</strong></p><div class="links-row"><a href="https://www.instagram.com/reel/DN1T1hF4gf-/" target="_blank" class="ig-link">▶ Entenda o processo</a></div></div>
+  <div class="relatorio-section"><h3>🍽️ Planejamento da Dieta</h3><p>Planejamento ajustado para <strong>5 refeições ao longo do dia</strong>, totalizando aproximadamente <strong>~3.158 kcal/dia</strong>. A estratégia foi reorganizada para encaixar melhor na sua rotina da tarde: o pré-treino agora é simples (apenas bananas), o que estava no lanche da tarde foi redistribuído no pós-treino (lanche noturno reforçado com whey + bananas) e no jantar (com adição de gordura boa do azeite).</p><div class="links-row"><a href="https://www.instagram.com/reel/DIzjTBhSr95/" target="_blank" class="ig-link">▶ Organização alimentar</a></div></div>
+  <div class="relatorio-section"><h3>⏰ Horário das Refeições</h3><p>Os horários são flexíveis com sua rotina, mas precisam de organização. Mantenha <strong>intervalos de 3 a 4 horas</strong> entre as refeições e prepare-as com antecedência sempre que possível. Regularidade impacta diretamente digestão, controle de apetite e estabilidade de energia ao longo do dia.</p><div class="links-row"><a href="https://www.instagram.com/reel/DNjfRDHvKzi/" target="_blank" class="ig-link">▶ Organização de horários</a></div></div>
+  <div class="relatorio-section"><h3>🏋️ Treinamento</h3><p>O volume de musculação foi aumentado de <strong>5 para 6 sessões semanais</strong> — aproveitando a boa resposta do organismo e a evolução consistente. A divisão foi reestruturada em <strong>Push/Pull alternado</strong>: T1, T3 e T5 focam em empurrar (peito, ombro, tríceps) e T2, T4 e T6 em puxar (costas, bíceps). Em todos os 6 treinos há <strong>2 a 3 exercícios de membros inferiores</strong> distribuídos. O volume de bíceps e tríceps foi reduzido a <strong>1 exercício isolado por treino</strong> para equilibrar o gasto energético com o Hyrox.</p><p>Todos os treinos seguem o <strong>Método BCA</strong>: Bloco Base (força bruta, 4–6 reps), Bloco Complementar (volume, 8–10 reps) e Bloco Auxiliar (pump, 12–20 reps). O modelo Full Body foi mantido para não sobrecarregar nenhum grupamento entre as sessões de kickboxing.</p></div>
+  <div class="relatorio-section"><h3>🚴 Atividade Aeróbica</h3><p>Manter as lutas diariamente. Nos dias sem luta, realizar <strong>50 minutos de atividade aeróbica em Zona 2 ou 3</strong>. Manter também <strong>3 a 4 aulas de Hyrox por semana</strong>. Nos dias de musculação sem Hyrox, incluir <strong>20 minutos de cardio pós-treino</strong> em Zona 2 ou 3.</p><p>"Cardio não é castigo, é estratégia."</p><div class="links-row"><a href="https://www.instagram.com/reel/DOY2YvMEbxP/" target="_blank" class="ig-link">▶ Benefícios do cardio</a></div></div>
+  <div class="relatorio-section"><h3>🧠 Comportamento e Constância</h3><p>Resultado não vem de motivação — vem de rotina. Você não precisa ser perfeito. <strong>Precisa ser consistente.</strong></p><p>"Constância não é ausência de falhas, é capacidade de retorno."</p><div class="links-row"><a href="https://www.instagram.com/reel/DHqfIjkxlM7/" target="_blank" class="ig-link">▶ Constância vence intensidade</a><a href="https://www.instagram.com/reel/DOgG7RTkYOx/" target="_blank" class="ig-link">▶ Não espere o momento perfeito</a></div></div>
   <div class="relatorio-section"><h3>🍽️ Refeição Livre e Álcool</h3><p>No máximo 1 refeição livre por semana, de forma planejada e sem exageros. Álcool — evitar. Impacta negativamente recuperação muscular, sono, metabolismo de gordura e desempenho.</p><div class="links-row"><a href="https://www.instagram.com/reel/DNGS8cSRS5X/" target="_blank" class="ig-link">▶ Refeição livre</a><a href="https://www.instagram.com/reel/DI4b3FnSxAz/" target="_blank" class="ig-link">▶ Álcool e metabolismo</a></div></div>
-
-  <div class="suporte-box"><h3>Suporte Direto</h3><p>Este relatório representa o início da estratégia, não o fim do processo. Quanto melhor for a comunicação, mais eficiente será sua evolução.</p><p><strong>Segunda a sexta · 8h às 18h</strong></p><div class="suporte-hours">⏰ Segunda a Sexta · 8h às 18h</div></div>
+  <div class="suporte-box"><h3>Suporte Direto</h3><p>Este relatório representa o início da estratégia, não o fim do processo. Quanto melhor for a comunicação, mais eficiente será sua evolução.</p><div class="suporte-hours">⏰ Segunda a Sexta · 8h às 18h</div></div>
 </section><section id="feedback" class="section">
   <div class="section-header"><h2>Feedback <span>Semanal</span></h2><div class="section-line"></div></div>
 
